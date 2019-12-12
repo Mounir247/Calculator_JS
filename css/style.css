@@ -1,0 +1,135 @@
+/*==============
+= BODY Section =
+==============*/
+body {
+    width: 500px;
+    margin: 4% auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color:#424461;
+  }
+/*==================
+= END BODY Section =
+==================*/
+
+
+/*====================
+= CALCULATOR Section =
+====================*/
+  .calculator {
+    background-color: #b5b8fa;
+    padding: 20px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+/*========================
+= END CALCULATOR Section =
+========================*/
+
+
+/*===============
+= INPUT Section =
+================*/
+  .input {
+    /*border: 1px solid #ddd;*/
+    border-radius: 5px;
+    height: 60px;
+    width: 82%;
+    margin-left: 40px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+    color: #000;
+  }
+  
+  .input:hover {
+    border: none;
+    
+  }
+/*===================
+= END INPUT Section =
+===================*/
+
+
+/*=================
+= BUTTONS Section =
+=================*/
+  .buttons {
+      text-align: center;
+
+  }
+  .buttons button {
+    display: inline-block;
+    border: 1px solid #888888;
+    border-left: none;
+    border-top: none;
+    border-radius: 1px;
+    width: 80px;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: #b5b8fa;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+
+  .buttons button:hover {
+    background-color: #ddd;
+   /* -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);*/
+    color: #000;
+    border: 1px solid #888888;
+    border-right: none;
+    border-bottom: none;
+    background-color: #b5b8fa;
+
+  }
+
+  .buttons button:active {
+    font-weight: bold;
+  }
+
+   button.number-btn{
+    background-color: #d2d3fa;
+}
+   button.number-btn:hover{
+    background-color: #b5b8fa;
+    color: #000;
+}
+
+   button.equal{
+    width: 39%;
+}
+   button.equal:hover{
+    background-color: #ac3737;
+}
+   button.clear{
+    width: 39%;
+    
+}
+    button.clear:hover{
+        background-color: rgb(65, 110, 209);
+    }
+   button.erase{
+       width: 39%;
+       border: 1px solid #888888;
+    border-left: none;
+    border-top: none;
+   }
+
+/*=====================
+= END BUTTONS Section =
+=====================*/
